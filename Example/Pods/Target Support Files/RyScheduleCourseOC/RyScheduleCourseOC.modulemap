@@ -1,0 +1,6 @@
+framework module RyScheduleCourseOC {
+  umbrella header "RyScheduleCourseOC-umbrella.h"
+
+  export *
+  module * { export * }
+}

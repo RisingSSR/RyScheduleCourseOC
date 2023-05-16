@@ -1,0 +1,28 @@
+{
+  "name": "RyScheduleCourseOC",
+  "version": "0.1.1",
+  "summary": "“掌上重邮”课表OC版本数据源部分",
+  "description": "RyScheduleCourseOC属于数据源部分\n- 可以pod到其他的Target减少耦合\n- 没有包含网络请求部分",
+  "homepage": "https://github.com/RisingSSR/RyScheduleCourseOC",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "RySi Sun": "2769119954@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/RisingSSR/RyScheduleCourseOC.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "RyScheduleCourseOC/Classes/**/*",
+  "public_header_files": "RyScheduleCourseOC/Classes/**/*.h",
+  "dependencies": {
+    "WCDB": [
+      "~> 1.1.0"
+    ]
+  }
+}

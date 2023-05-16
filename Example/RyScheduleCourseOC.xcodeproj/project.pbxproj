@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		35F5AD2082EBFCC55E4FE0B9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		35F5AD2082EBFCC55E4FE0B9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* RyScheduleCourseOC_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RyScheduleCourseOC_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,12 +60,12 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A986A37F0EB9790E0895CF3 /* Pods_RyScheduleCourseOC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RyScheduleCourseOC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		91D4ACD465DAFF75175DD381 /* RyScheduleCourseOC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RyScheduleCourseOC.podspec; path = ../RyScheduleCourseOC.podspec; sourceTree = "<group>"; };
+		91D4ACD465DAFF75175DD381 /* RyScheduleCourseOC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RyScheduleCourseOC.podspec; path = ../RyScheduleCourseOC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99E08827F65E05F4A8940DAE /* Pods-RyScheduleCourseOC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RyScheduleCourseOC_Example.release.xcconfig"; path = "Target Support Files/Pods-RyScheduleCourseOC_Example/Pods-RyScheduleCourseOC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9B47A52E5E2EEF0AD33DF75A /* Pods-RyScheduleCourseOC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RyScheduleCourseOC_Example.debug.xcconfig"; path = "Target Support Files/Pods-RyScheduleCourseOC_Example/Pods-RyScheduleCourseOC_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A74DD9BE79537CF3B83651BB /* Pods_RyScheduleCourseOC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RyScheduleCourseOC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAFB0FDB5746EA7491DC8C36 /* Pods-RyScheduleCourseOC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RyScheduleCourseOC_Tests.release.xcconfig"; path = "Target Support Files/Pods-RyScheduleCourseOC_Tests/Pods-RyScheduleCourseOC_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B098AC6B22044C39D145ABA6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B098AC6B22044C39D145ABA6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		ED9E72DB8530A91643C357D5 /* Pods-RyScheduleCourseOC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RyScheduleCourseOC_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RyScheduleCourseOC_Tests/Pods-RyScheduleCourseOC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				ED9E72DB8530A91643C357D5 /* Pods-RyScheduleCourseOC_Tests.debug.xcconfig */,
 				AAFB0FDB5746EA7491DC8C36 /* Pods-RyScheduleCourseOC_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -325,10 +325,16 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RyScheduleCourseOC_Example/Pods-RyScheduleCourseOC_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/RyScheduleCourseOC/RyScheduleCourseOC.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLiteRepairKit/sqliterk.framework",
+				"${BUILT_PRODUCTS_DIR}/WCDB/WCDB.framework",
+				"${BUILT_PRODUCTS_DIR}/WCDBOptimizedSQLCipher/sqlcipher.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RyScheduleCourseOC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/sqliterk.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WCDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/sqlcipher.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -449,7 +455,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -482,7 +488,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -497,6 +503,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RyScheduleCourseOC/RyScheduleCourseOC-Prefix.pch";
 				INFOPLIST_FILE = "RyScheduleCourseOC/RyScheduleCourseOC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +520,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RyScheduleCourseOC/RyScheduleCourseOC-Prefix.pch";
 				INFOPLIST_FILE = "RyScheduleCourseOC/RyScheduleCourseOC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -1,0 +1,32 @@
+PODS:
+  - RyScheduleCourseOC (0.1.1):
+    - WCDB (~> 1.1.0)
+  - SQLiteRepairKit (1.3.0):
+    - WCDBOptimizedSQLCipher (~> 1.3.0)
+  - WCDB (1.1.0):
+    - SQLiteRepairKit (~> 1.3.0)
+    - WCDBOptimizedSQLCipher (~> 1.3.0)
+  - WCDBOptimizedSQLCipher (1.3.0)
+
+DEPENDENCIES:
+  - RyScheduleCourseOC (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SQLiteRepairKit
+    - WCDB
+    - WCDBOptimizedSQLCipher
+
+EXTERNAL SOURCES:
+  RyScheduleCourseOC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RyScheduleCourseOC: 5877771a01d96979dcfce12a144743c949ac63f1
+  SQLiteRepairKit: a66145aadae91886c800f75e16f5cc6476af1a93
+  WCDB: 3767097e36d1cf3179620368593ccc585278fbc1
+  WCDBOptimizedSQLCipher: fc5d49fe6761e54aad29e88da01b6fc1283e5759
+
+PODFILE CHECKSUM: 1b1b3a5912ea156aac570a3477eb7588ff830bba
+
+COCOAPODS: 1.12.1
