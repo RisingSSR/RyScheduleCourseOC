@@ -1,8 +1,8 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/RyScheduleCourseOC" "${PODS_CONFIGURATION_BUILD_DIR}/SQLiteRepairKit" "${PODS_CONFIGURATION_BUILD_DIR}/WCDB" "${PODS_CONFIGURATION_BUILD_DIR}/WCDBOptimizedSQLCipher"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/RyCyxbsExtensionOC" "${PODS_CONFIGURATION_BUILD_DIR}/RyScheduleCourseOC" "${PODS_CONFIGURATION_BUILD_DIR}/SQLiteRepairKit" "${PODS_CONFIGURATION_BUILD_DIR}/WCDB" "${PODS_CONFIGURATION_BUILD_DIR}/WCDBOptimizedSQLCipher"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/RyScheduleCourseOC/RyScheduleCourseOC.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SQLiteRepairKit/sqliterk.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/WCDB/WCDB.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/WCDBOptimizedSQLCipher/sqlcipher.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -l"c++" -l"z" -framework "CoreFoundation" -framework "Foundation" -framework "RyScheduleCourseOC" -framework "Security" -framework "UIKit" -framework "WCDB" -framework "sqlcipher" -framework "sqliterk"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/RyCyxbsExtensionOC/RyCyxbsExtensionOC.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/RyScheduleCourseOC/RyScheduleCourseOC.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SQLiteRepairKit/sqliterk.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/WCDB/WCDB.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/WCDBOptimizedSQLCipher/sqlcipher.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -l"c++" -l"z" -framework "CoreFoundation" -framework "Foundation" -framework "RyCyxbsExtensionOC" -framework "RyScheduleCourseOC" -framework "Security" -framework "UIKit" -framework "WCDB" -framework "sqlcipher" -framework "sqliterk"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

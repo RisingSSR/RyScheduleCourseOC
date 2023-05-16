@@ -1,0 +1,6 @@
+framework module RyCyxbsExtensionOC {
+  umbrella header "RyCyxbsExtensionOC-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,5 +1,7 @@
 PODS:
+  - RyCyxbsExtensionOC (0.1.0)
   - RyScheduleCourseOC (0.1.1):
+    - RyCyxbsExtensionOC
     - WCDB (~> 1.1.0)
   - SQLiteRepairKit (1.3.0):
     - WCDBOptimizedSQLCipher (~> 1.3.0)
@@ -12,21 +14,24 @@ DEPENDENCIES:
   - RyScheduleCourseOC (from `../`)
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - SQLiteRepairKit
     - WCDB
     - WCDBOptimizedSQLCipher
+  https://github.com/RisingSSR/RisingCyxbsSepc.git:
+    - RyCyxbsExtensionOC
 
 EXTERNAL SOURCES:
   RyScheduleCourseOC:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RyScheduleCourseOC: 5877771a01d96979dcfce12a144743c949ac63f1
+  RyCyxbsExtensionOC: 7e78f9755e6fc96fbd0d3270590ce89e8910154c
+  RyScheduleCourseOC: 1ee2fb45bd66239e7a39ab0f97897618bcbee416
   SQLiteRepairKit: a66145aadae91886c800f75e16f5cc6476af1a93
   WCDB: 3767097e36d1cf3179620368593ccc585278fbc1
   WCDBOptimizedSQLCipher: fc5d49fe6761e54aad29e88da01b6fc1283e5759
 
-PODFILE CHECKSUM: 1b1b3a5912ea156aac570a3477eb7588ff830bba
+PODFILE CHECKSUM: 8cbb1f1c390938ca3c8d259ea61e42ba56cf7d9d
 
 COCOAPODS: 1.12.1

@@ -41,4 +41,5 @@ RyScheduleCourseOC属于数据源部分
   s.public_header_files = 'RyScheduleCourseOC/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'WCDB', '~> 1.1.0'
+  s.dependency 'RyCyxbsExtensionOC'
 end

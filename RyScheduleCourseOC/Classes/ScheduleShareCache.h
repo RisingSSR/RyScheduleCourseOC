@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "ScheduleCombineItemSupport.h"
-#import "RisingSingleClass.h"
+#import <RyCyxbsExtensionOC/RisingSingleClass.h>
 #import "ScheduleType.h"
 
 NS_ASSUME_NONNULL_BEGIN
