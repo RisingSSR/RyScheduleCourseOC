@@ -8,6 +8,7 @@
 
 #import "RYViewController.h"
 #import <ScheduleCourse.h>
+#import <ScheduleShareCache.h>
 
 @interface RYViewController ()
 
@@ -20,6 +21,7 @@
     [super viewDidLoad];
 	
     ScheduleCourse *a = [[ScheduleCourse alloc] init];
+    [ScheduleShareCache memoryItemForKey:nil forKeyName:nil];
 }
 
 - (void)didReceiveMemoryWarning

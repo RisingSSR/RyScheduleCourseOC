@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RyScheduleCourseOC'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '“掌上重邮”课表OC版本数据源部分'
 
 # This description is used to generate tags and improve search results.

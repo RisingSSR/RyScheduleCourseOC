@@ -53,8 +53,8 @@ typedef NS_ENUM(NSUInteger, ScheduleTimelineType) {
 
 @property (nonatomic, readonly) CGFloat percent;
 
-- (void)setSectionMdFrom:(NSDate *)date section:(NSUInteger)section;
-@property (nonatomic, copy) NSDate *sectionMd;
+//- (void)setSectionMdFrom:(NSDate *)date section:(NSUInteger)section;
+//@property (nonatomic, copy) NSDate *sectionMd;
 
 @end
 

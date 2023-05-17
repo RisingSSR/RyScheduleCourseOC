@@ -8,7 +8,8 @@
 
 #import "ScheduleCombineItemSupport.h"
 
-#import <WCDB/WCDB.h>
+#if __has_include("WCDB/WCDB.h")
+#import "WCDB/WCDB.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -30,3 +31,5 @@ WCDB_PROPERTY(exp)
 @end
 
 NS_ASSUME_NONNULL_END
+
+#endif
