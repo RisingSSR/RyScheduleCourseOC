@@ -1,6 +1,6 @@
 PODS:
   - RyCyxbsExtensionOC (0.1.1)
-  - RyScheduleCourseOC (0.1.1):
+  - RyScheduleCourseOC (0.1.2):
     - RyCyxbsExtensionOC
     - WCDB (~> 1.1.0)
   - SQLiteRepairKit (1.3.0):
@@ -27,7 +27,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   RyCyxbsExtensionOC: e7946ae15a29de3b6e340744f4796c2f0a65c619
-  RyScheduleCourseOC: 1ee2fb45bd66239e7a39ab0f97897618bcbee416
+  RyScheduleCourseOC: 99a69e93a9de4b2738a627a1ba8b80d8f21826e8
   SQLiteRepairKit: a66145aadae91886c800f75e16f5cc6476af1a93
   WCDB: 3767097e36d1cf3179620368593ccc585278fbc1
   WCDBOptimizedSQLCipher: fc5d49fe6761e54aad29e88da01b6fc1283e5759

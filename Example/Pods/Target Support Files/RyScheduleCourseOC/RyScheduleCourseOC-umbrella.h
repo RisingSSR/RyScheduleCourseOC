@@ -10,12 +10,12 @@
 #endif
 #endif
 
+#import "ScheduleCourse+WCTTableCoding.h"
+#import "ScheduleIdentifier+WCTTableCoding.h"
 #import "NSIndexPath+Schedule.h"
 #import "ScheduleCollectionViewModel.h"
 #import "ScheduleCombineItemSupport.h"
-#import "ScheduleCourse+WCTTableCoding.h"
 #import "ScheduleCourse.h"
-#import "ScheduleIdentifier+WCTTableCoding.h"
 #import "ScheduleMapModel.h"
 #import "ScheduleNeedsSupport.h"
 #import "ScheduleShareCache.h"

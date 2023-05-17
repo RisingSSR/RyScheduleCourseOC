@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RyScheduleCourseOC'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = '“掌上重邮”课表OC版本数据源部分'
 
 # This description is used to generate tags and improve search results.
@@ -38,7 +38,8 @@ RyScheduleCourseOC属于数据源部分
   #   'RyScheduleCourseOC' => ['RyScheduleCourseOC/Assets/*.png']
   # }
 
-  s.public_header_files = 'RyScheduleCourseOC/Classes/**/*.h'
+  s.public_header_files = 'RyScheduleCourseOC/Classes/Public/**/*.h'
+  s.private_header_files = 'RyScheduleCourseOC/Classes/Private/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'WCDB', '~> 1.1.0'
   s.dependency 'RyCyxbsExtensionOC'
